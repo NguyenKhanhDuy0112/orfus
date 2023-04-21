@@ -1,4 +1,4 @@
-export const orfusJson = {
+const orfusJson = {
   line_content_to_display: {
     Feature_49: {
       "KPI": {
@@ -6863,3 +6863,5 @@ export const orfusJson = {
     }
   }
 }
+
+module.export = orfusJson;

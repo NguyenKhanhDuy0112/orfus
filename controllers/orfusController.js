@@ -1,6 +1,6 @@
-import { orfusJson } from "../constant/orfus.js";
+const orfusJson = require("../constant/orfus.js")
 
-export const getOrfus = async (req, res) => {
+const getOrfus = async (req, res) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -13,3 +13,5 @@ export const getOrfus = async (req, res) => {
     return res.status(500).json({ message: 'fail' });
   }
 };
+
+module.export = { getOrfus }
