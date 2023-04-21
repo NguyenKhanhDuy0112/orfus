@@ -1,20 +1,33 @@
 {
   "name": "vercel-testing",
   "version": "1.0.0",
-  "description": "node express testing",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "authenticator": "^1.1.5",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.2.1",
     "nodemon": "^2.0.15"
   }
 }
+
