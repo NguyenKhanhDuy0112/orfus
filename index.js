@@ -1,31 +1,14 @@
-import bodyParser from 'body-parser';
-import cookieParser from 'cookie-parser';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import express from 'express';
-import connect from './config/database.js';
-import routes from './routers/index.js';
+// Import packages
+const express = require("express");
+const home = require("./routes/home");
 
+// Middlewares
 const app = express();
-const PORT = process.env.PORT || 8000;
+app.use(express.json());
 
-app.use(cookieParser('MY SECRET'));
-app.use(bodyParser.json({ limit: '30mb' }));
-app.use(bodyParser.urlencoded({ extended: false, limit: '30mb' }));
+// Routes
+app.use("/home", home);
 
-const corsOptions = {
-    origin: true,
-    credentials: true,
-};
-
-app.use(cors(corsOptions));
-dotenv.config();
-
-// Connect db
-connect.connect();
-
-app.use('/', routes);
-
-app.listen(Number(PORT), () => {
-    console.log(`Server running on PORT ${PORT}`);
-});
+// connection
+const port = process.env.PORT || 9001;
+app.listen(port, () => console.log(`Listening to port ${port}`));
