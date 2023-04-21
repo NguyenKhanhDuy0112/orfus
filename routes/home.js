@@ -1,11 +1,9 @@
 const express = require("express");
 const router = express.Router();
+import { getOrfus } from '../controllers/orfusController.js';
 
 router.get("/", async (req, res, next) => {
-  return res.status(200).json({
-    title: "Express Testing",
-    message: "The app is working properly!",
-  });
+  return getOrfus
 });
 
 module.exports = router;
