@@ -9514,7 +9514,7 @@ const orfusJson = {
   }
 }
 
-router.get("/line_content_to_display", async (req, res, next) => {
+router.post("/line_content_to_display", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -9528,7 +9528,7 @@ router.get("/line_content_to_display", async (req, res, next) => {
   }
 });
 
-router.get("/uid_park", async (req, res, next) => {
+router.post("/uid_park", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -9542,7 +9542,7 @@ router.get("/uid_park", async (req, res, next) => {
   }
 });
 
-router.get("/uid_park_reposition", async (req, res, next) => {
+router.post("/uid_park_reposition", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -9556,7 +9556,7 @@ router.get("/uid_park_reposition", async (req, res, next) => {
   }
 });
 
-router.get("/line_close", async (req, res, next) => {
+router.post("/line_close", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -9570,7 +9570,7 @@ router.get("/line_close", async (req, res, next) => {
   }
 });
 
-router.get("/line_open", async (req, res, next) => {
+router.post("/line_open", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
