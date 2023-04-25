@@ -50,76 +50,7 @@ const orfusJson = {
             "metric": "SSS"
           },
           "products": [
-            {
-              "order_uid": "25000002_20230131_162015_248",
-              "content": [
-                {
-                  "type": "list",
-                  "products": [
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 1"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 2"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 3"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 4"
-                    },
-                    {
-                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
-                      "quantity": "2",
-                      "name": "burger 5"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 6"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 7"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 8"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 9"
-                    },
-                    {
-                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
-                      "quantity": "2",
-                      "name": "burger 10"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 11"
-                    },
-                    {
-                      "grill": [],
-                      "quantity": "2",
-                      "name": "burger 12"
-                    }]
-                }
-              ],
-              "slot_status": "Not Selected"
-            }
+            
           ]
         }
       ],
