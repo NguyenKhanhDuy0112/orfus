@@ -33,27 +33,8 @@ const orfusJson = {
           ]
         ]
       },
-      "buttons": [
-        {
-          "order": {
-            "DISPLAY_FULL_ORDER": "True",
-            "UID": "25000002_20230131_162015_248",
-            "already_bumped": "+0",
-            "name": "ESP 48",
-            "quantity": "1/1",
-            "type": "4",
-            "banner": [
-              {
-                "type": "4"
-              }
-            ],
-            "metric": "SSS"
-          },
-          "products": [
-            
-          ]
-        }
-      ],
+      "buttons_parked": [],
+      "buttons": [],
       "open_status": "False",
       "workstation_name": "MFY 1",
       "time": "10:35:56"
