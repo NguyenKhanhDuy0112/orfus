@@ -2,6 +2,310 @@ const express = require("express");
 const router = express.Router();
 
 const orfusJson = {
+  reprint_bump: {
+    Feature_41_3: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+  },
   line_change_slot_selected_down: {
     Feature_26_3: {
       "KPI": {
@@ -10588,7 +10892,7 @@ router.post("/line_change_slot_selected_up", async (req, res, next) => {
   }
 });
 
-router.post("/hello", async (req, res, next) => {
+router.post("/reprint_bump", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
@@ -10601,5 +10905,6 @@ router.post("/hello", async (req, res, next) => {
     return res.status(500).json({ message: 'fail' });
   }
 });
+
 
 module.exports = router;
