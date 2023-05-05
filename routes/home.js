@@ -9444,7 +9444,7 @@ const orfusJson = {
                       "grill": [],
                       "quantity": "2",
                       "name": "Grande Potatoes",
-                      "image": "1003.png"
+                      "image": "1004.png"
                     }]
                 },
                 {
@@ -9477,6 +9477,7 @@ const orfusJson = {
         }
       ],
       "open_status": "True",
+      "workstation_name": "MFY 1",
       "time": "10:35:56"
     },
     Feature_25_1: {
