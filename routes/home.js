@@ -10274,7 +10274,7 @@ const orfusJson = {
           ]
         ]
       },
-      "button_parked": [
+      "buttons": [
         {
           "order": {
             "DISPLAY_FULL_ORDER": "True",
