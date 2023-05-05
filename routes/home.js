@@ -8221,7 +8221,7 @@ const orfusJson = {
                       "name": "burger 4"
                     },
                     {
-                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
                       "quantity": "2",
                       "name": "burger 5"
                     },
@@ -8246,7 +8246,7 @@ const orfusJson = {
                       "name": "burger 9"
                     },
                     {
-                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
                       "quantity": "2",
                       "name": "burger 10"
                     },
@@ -8304,7 +8304,7 @@ const orfusJson = {
                       "name": "burger 4"
                     },
                     {
-                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
                       "quantity": "2",
                       "name": "burger 5"
                     },
@@ -8329,7 +8329,7 @@ const orfusJson = {
                       "name": "burger 9"
                     },
                     {
-                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
                       "quantity": "2",
                       "name": "burger 10"
                     },
@@ -8387,7 +8387,7 @@ const orfusJson = {
                       "name": "burger 4"
                     },
                     {
-                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
                       "quantity": "2",
                       "name": "burger 5"
                     },
@@ -8412,7 +8412,7 @@ const orfusJson = {
                       "name": "burger 9"
                     },
                     {
-                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
                       "quantity": "2",
                       "name": "burger 10"
                     },
@@ -8434,6 +8434,7 @@ const orfusJson = {
         }
       ],
       "open_status": "True",
+      "workstation_name": "MFY 1",
       "time": "10:35:56"
     },
     Feature_29: {
@@ -8513,7 +8514,7 @@ const orfusJson = {
                       "name": "Happy Meal",
                       "items": [
                         {
-                          "grill": [["Sans Cornichon"], ["Sans Oignons"]],
+                          "grill": [{ "quantity": "Sans", "name": "Cornichon" }, { "quantity": "Sans", "name": "Oignons" }],
                           "quantity": "1",
                           "name": "Hamb"
                         },
@@ -8532,6 +8533,7 @@ const orfusJson = {
         }
       ],
       "open_status": "True",
+      "workstation_name": "MFY 1",
       "time": "10:35:56"
     },
     Feature_28: {
