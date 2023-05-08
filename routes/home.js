@@ -13078,6 +13078,13 @@ const orfusJson = {
             "metric": "SSS",
             "banner": [
               {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              },
+              {
                 "type": "4"
               }
             ]
@@ -13091,51 +13098,63 @@ const orfusJson = {
                   "products": [
                     {
                       "grill": [],
-                      "name": "2 burger 1"
+                      "quantity": "2",
+                      "name": "burger 1"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 2"
+                      "quantity": "2",
+                      "name": "burger 2"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 3"
+                      "quantity": "2",
+                      "name": "burger 3"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 4"
+                      "quantity": "2",
+                      "name": "burger 4"
                     },
                     {
-                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
                       "name": "burger 5"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 6"
+                      "quantity": "2",
+                      "name": "burger 6"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 7"
+                      "quantity": "2",
+                      "name": "burger 7"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 8"
+                      "quantity": "2",
+                      "name": "burger 8"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 9"
+                      "quantity": "2",
+                      "name": "burger 9"
                     },
                     {
-                      "grill": ["+ Salade", "- Sauce"],
-                      "name": "2 burger 10"
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 11"
+                      "quantity": "2",
+                      "name": "burger 11"
                     },
                     {
                       "grill": [],
-                      "name": "2 burger 12"
+                      "quantity": "2",
+                      "name": "burger 12"
                     }]
                 }
               ],
@@ -13144,7 +13163,9 @@ const orfusJson = {
           ]
         }
       ],
+      "can_park": "True",
       "open_status": "True",
+      "workstation_name": "MFY 1",
       "time": "10:35:56"
     },
     Feature_18: {
