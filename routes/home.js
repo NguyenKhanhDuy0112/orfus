@@ -2632,9 +2632,9 @@ const orfusJson = {
         }
       ],
       "recalled_details": {
-        "reprint_all": "True",
-        "reprint_grouped": "True",
-        "reprint_grill": "True"
+        "reprint_all": "False",
+        "reprint_grouped": "False",
+        "reprint_grill": "False"
       },
       "open_status": "True",
       "workstation_name": "MFY 1",
