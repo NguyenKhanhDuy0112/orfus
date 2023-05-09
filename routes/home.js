@@ -36663,6 +36663,10557 @@ const orfusJson = {
       "time": "10:35:56"
     },
   },
+  switch_display_KPI: {
+    Feature_45_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_45_2: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_52_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_serve_later": [
+        {
+          "order_name": "CB 00464",
+          "order_uid": "25000002_20230131_162015_464",
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_464",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "desert 1"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order_name": "CB 00465",
+          "order_uid": "25000002_20230131_162015_465",
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_465",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "desert 2"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order_name": "CB 00466",
+          "order_uid": "25000002_20230131_162015_466",
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_466",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "desert 3"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order_name": "CB 00467",
+          "order_uid": "25000002_20230131_162015_467",
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_467",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "desert 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Modifier 1" }],
+                      "quantity": "2",
+                      "name": "desert 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "additional_actions": {
+        "wait_time": "True",
+        "serve_later": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "Service Comptoir",
+      "time": "10:35:56"
+    },
+    Feature_52_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "additional_actions": {
+        "wait_time": "True",
+        "serve_later": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "Service Comptoir",
+      "time": "10:35:56"
+    },
+    Feature_50_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_wait_time": [
+        {
+          "order_name": "CB 00452",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "5"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00453",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00454",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00455",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00456",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "1"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00457",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00458",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00459",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00460",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "5"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00461",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "6"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00462",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "7"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00463",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "8"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00464",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "9"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00465",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "10"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00466",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "11"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00467",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "12"
+              }
+            }
+          ],
+          "metric": "XXX"
+        }
+      ],
+      "additional_actions": {
+        "wait_time": "True",
+        "serve_later": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "Service Comptoir",
+      "time": "10:35:56"
+    },
+    Feature_50_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "additional_actions": {
+        "wait_time": "True",
+        "serve_later": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "Service Comptoir",
+      "time": "10:35:56"
+    },
+    Feature_57_2: {
+      "buttons_wait_time": [
+        {
+          "order_name": "CB 00452",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "5"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00453",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00454",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00455",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00456",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "1"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00457",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00458",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00459",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00460",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "5"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00461",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "6"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00462",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "7"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00463",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "8"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00464",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "9"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00465",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "10"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00466",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "11"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00467",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "12"
+              }
+            }
+          ],
+          "metric": "XXX"
+        }
+      ],
+      "buttons_ready": [
+        {
+          "order_name": "CB 00456"
+        },
+        {
+          "order_name": "U-767CV"
+        },
+        {
+          "order_name": "CB 00458"
+        },
+        {
+          "order_name": "U-675367"
+        },
+        {
+          "order_name": "@@54678"
+        },
+        {
+          "order_name": "CB 00457"
+        },
+        {
+          "order_name": "U-767CV"
+        },
+        {
+          "order_name": "CB 00458"
+        },
+        {
+          "order_name": "U-675367"
+        },
+        {
+          "order_name": "@@54678"
+        },
+        {
+          "order_name": "CB 00457"
+        },
+        {
+          "order_name": "@@54678"
+        },
+        {
+          "order_name": "CB 00457"
+        }
+      ]
+    },
+    Feature_57_1: {
+      "buttons_wait_time": [
+        {
+          "order_name": "CB 00452",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "5"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00453",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00454",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00455",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00456",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "1"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00457",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "2"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00458",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "3"
+              }
+            }
+          ],
+          "metric": "XXX"
+        },
+        {
+          "order_name": "CB 00459",
+          "banner": [
+            {
+              "type": "2",
+              "parameters": {
+                "status": "1",
+                "len_queue": "4"
+              }
+            }
+          ],
+          "metric": "XXX"
+        }
+      ],
+      "buttons_ready": [
+        {
+          "order_name": "CB 00456"
+        },
+        {
+          "order_name": "U-767CV"
+        },
+        {
+          "order_name": "CB 00458"
+        }
+      ]
+    },
+    Feature_46_2: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_46_1: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_49: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "additional_actions": {
+        "wait_time": "True",
+        "serve_later": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_48_3: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_48_2: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_48_1: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_42: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_41: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_recalled": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_36: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected Parked"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "Service Drive",
+      "time": "10:35:56"
+    },
+    Feature_33: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_parked": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_249",
+            "already_bumped": "+0",
+            "name": "ESP 49",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_250",
+            "already_bumped": "+0",
+            "name": "ESP 50",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_250",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "can_park": "True",
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_32: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ],
+          [
+            "Ligne 5",
+            "00"
+          ],
+          [
+            "Ligne 6",
+            "00"
+          ],
+          [
+            "Ligne 7",
+            "00"
+          ],
+          [
+            "Ligne 8",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_parked": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_249",
+            "already_bumped": "+0",
+            "name": "ESP 49",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_250",
+            "already_bumped": "+0",
+            "name": "ESP 50",
+            "quantity": "1/1",
+            "type": "4",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ],
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_250",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "can_park": "True",
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_39: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_recalled": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Ketchup" }, { "quantity": "Sans", "name": "Fromage" }, { "quantity": "Sans", "name": "Salade" }, { "quantity": "Sans", "name": "Oignons" }],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Bacon" }, { "quantity": "Sans", "name": "Fromage" }],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [{ "quantity": "Sans", "name": "Chantilly" }],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "recalled_details": {
+        "reprint_all": "True",
+        "reprint_grouped": "True",
+        "reprint_grill": "True"
+      },
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_38: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "buttons_recalled": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "recalled_details": {
+        "reprint_all": "True",
+        "reprint_grouped": "True",
+        "reprint_grill": "True"
+      },
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_37_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "canceled": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "canceled": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_37_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "canceled": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_31: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "not_paid_block_bump": "True"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_30: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_29: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Happy Meal",
+                      "items": [
+                        {
+                          "grill": [{ "quantity": "Sans", "name": "Cornichon" }, { "quantity": "Sans", "name": "Oignons" }],
+                          "quantity": "1",
+                          "name": "Hamb"
+                        },
+                        {
+                          "grill": [],
+                          "quantity": "1",
+                          "name": "Petite frite"
+                        }
+                      ]
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_28: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_247",
+            "already_bumped": "+0",
+            "name": "ESP 47",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_247",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_248",
+            "already_bumped": "+0",
+            "name": "ESP 48",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_248",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_27: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Hamb"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheese"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Double Cheese Bacon"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Triple Cheese"
+                    },
+                    {
+                      "grill": [["Sans Ketchup"], ["Sans Fromage"], ["Sans Salade"], ["Sans Oignons"]],
+                      "quantity": "1",
+                      "name": "McFirst Boeuf"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "McFirst Poulet"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "McFirst Poisson"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "McChicken"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Big Tasty Chicken"
+                    },
+                    {
+                      "grill": [["Sans Bacon"], ["Sans Fromage"]],
+                      "quantity": "1",
+                      "name": "CBO"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Cheddar Smoky 1v"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Cheddar Smoky 2v"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Petite frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyenne frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "5",
+                      "name": "Grande frite"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Grande Potatoes"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grand Coca"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Coca Zero"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "3",
+                      "name": "Moyen Ice Tea"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "1",
+                      "name": "Moyen Eau Citron"
+                    },
+                    {
+                      "grill": [["Sans Chantilly"]],
+                      "quantity": "1",
+                      "name": "Parfait VanChoco"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_26: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    }]
+                },
+                {
+                  "type": "image",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Petite frite",
+                      "image": "1001.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "13",
+                      "name": "Moyenne frite",
+                      "image": "1002.png",
+                      "update": "Increase"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "993",
+                      "name": "Grande frite",
+                      "image": "1003.png",
+                      "update": "Decrease"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grande Potatoes",
+                      "image": "1003.png"
+                    }]
+                },
+                {
+                  "type": "image",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Sauce Big Tasty",
+                      "image": "1013.png",
+                      "update": "Decrease"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "13",
+                      "name": "Sauce chinoise",
+                      "image": "1014.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "993",
+                      "name": "Creamy deluxe",
+                      "image": "1015.png"
+                    }]
+                }
+              ],
+              "slot_status": "Not Selected"
+            }
+          ]
+        },
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_246",
+            "already_bumped": "+0",
+            "name": "ESP 46",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_246",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_25_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    }]
+                },
+                {
+                  "type": "image",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Petite frite",
+                      "image": "1001.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "13",
+                      "name": "Moyenne frite",
+                      "image": "1002.png",
+                      "update": "Increase"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "993",
+                      "name": "Grande frite",
+                      "image": "1003.png",
+                      "update": "Decrease"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Grande Potatoes",
+                      "image": "1004.png"
+                    }]
+                },
+                {
+                  "type": "image",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "Sauce Big Tasty",
+                      "image": "1013.png",
+                      "update": "Decrease"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "13",
+                      "name": "Sauce chinoise",
+                      "image": "1014.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "993",
+                      "name": "Creamy deluxe",
+                      "image": "1015.png"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_25_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    }]
+                },
+                {
+                  "type": "image",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "Sauce Big Tasty",
+                      "image": "1013.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "13",
+                      "name": "Sauce chinoise",
+                      "image": "1014.png"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "993",
+                      "name": "Creamy deluxe",
+                      "image": "1015.png"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_24_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    }]
+                },
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_23: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [["+ Bacon"], ["+ Tomates"], ["+ Sauce", "Increase"], ["- Oignon"]],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [["+ Salade"], ["- Sauce", "Decrease"]],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected Parked"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_22: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "12",
+                      "name": "burger 1",
+                      "update": "Increase"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "0",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "992",
+                      "name": "burger 3",
+                      "update": "Decrease"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_21_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "12",
+                      "name": "burger 1",
+                      "update": "Increase"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "992",
+                      "name": "burger 3",
+                      "update": "Decrease"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_21_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "12",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "992",
+                      "name": "burger 3",
+                      "update": "Decrease"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_20_3: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "12 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "992 burger 3"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_20_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "12 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_20_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_19: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              },
+              {
+                "type": "4"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected Parked"
+            }
+          ]
+        }
+      ],
+      "can_park": "True",
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_18: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "3"
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_17_5: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "5"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_17_4: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "4"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_17_3: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "3"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_17_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "2"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_17_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS",
+            "banner": [
+              {
+                "type": "2",
+                "parameters": {
+                  "status": "1",
+                  "len_queue": "12"
+                }
+              }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_16: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS",
+            "banner": [
+              { "type": "1" }
+            ]
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_12_7: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_12_6: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "5",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_12_5: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "6",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 4"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Bacon" }, { "quantity": "+", "name": "Tomates" }, { "quantity": "+", "name": "Sauce" }, { "quantity": "-", "name": "Oignon" }],
+                      "quantity": "2",
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 9"
+                    },
+                    {
+                      "grill": [{ "quantity": "+", "name": "Salade" }, { "quantity": "-", "name": "Sauce" }],
+                      "quantity": "2",
+                      "name": "burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "quantity": "2",
+                      "name": "burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    },
+    Feature_12_4: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "4",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_12_3: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "3",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_12_2: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "2",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": ["+ Bacon", "+ Tomates", "+ Sauce", "- Oignon"],
+                      "name": "burger 5"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 6"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 7"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 8"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 9"
+                    },
+                    {
+                      "grill": ["+ Salade", "- Sauce"],
+                      "name": "2 burger 10"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 11"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 12"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_12_1: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [
+        {
+          "order": {
+            "DISPLAY_FULL_ORDER": "True",
+            "UID": "25000002_20230131_162015_245",
+            "already_bumped": "+0",
+            "name": "ESP 45",
+            "quantity": "1/1",
+            "type": "1",
+            "metric": "SSS"
+          },
+          "products": [
+            {
+              "order_uid": "25000002_20230131_162015_245",
+              "content": [
+                {
+                  "type": "list",
+                  "products": [
+                    {
+                      "grill": [],
+                      "name": "2 burger 1"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 2"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 3"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 4"
+                    },
+                    {
+                      "grill": [],
+                      "name": "2 burger 5"
+                    }]
+                }
+              ],
+              "slot_status": "Selected"
+            }
+          ]
+        }
+      ],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+    Feature_11: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "False",
+      "time": "10:35:56"
+    },
+    Feature_5: {
+      "KPI": {
+        "DisplayKPI": "True",
+        "business": [
+          "00",
+          "00"
+        ],
+        "initiation": [
+          "--",
+          "--"
+        ],
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
+        ]
+      },
+      "buttons": [],
+      "open_status": "True",
+      "time": "10:35:56"
+    },
+  }
 }
 
 router.post("/line_content_to_display", async (req, res, next) => {
@@ -36807,6 +47358,20 @@ router.post("/uid_serve_later_bump", async (req, res, next) => {
 });
 
 router.post("/uid_serve_later_inject", async (req, res, next) => {
+  try {
+    const q = req.query.mock;
+    const findIndex = req.url.split('').findIndex((x) => x === '?')
+    const url = req.url.split('').slice(1, findIndex).join('');
+    if (Object.keys(orfusJson).includes(url)) {
+      return res.status(200).json(orfusJson[url][q]);
+    }
+    return res.status(400).json({});
+  } catch (error) {
+    return res.status(500).json({ message: 'fail' });
+  }
+});
+
+router.post("/switch_display_KPI", async (req, res, next) => {
   try {
     const q = req.query.mock;
     const findIndex = req.url.split('').findIndex((x) => x === '?')
