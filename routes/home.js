@@ -36736,7 +36736,7 @@ const orfusJson = {
     },
     Feature_52_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -37192,7 +37192,7 @@ const orfusJson = {
     },
     Feature_52_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -37557,7 +37557,7 @@ const orfusJson = {
     },
     Feature_50_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -38128,7 +38128,7 @@ const orfusJson = {
     },
     Feature_50_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -38909,7 +38909,7 @@ const orfusJson = {
     },
     Feature_49: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -39350,7 +39350,7 @@ const orfusJson = {
     },
     Feature_42: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -39700,7 +39700,7 @@ const orfusJson = {
     },
     Feature_41: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -41532,7 +41532,7 @@ const orfusJson = {
     },
     Feature_39: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -41982,7 +41982,7 @@ const orfusJson = {
     },
     Feature_38: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -42373,7 +42373,7 @@ const orfusJson = {
     },
     Feature_37_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -42707,7 +42707,7 @@ const orfusJson = {
     },
     Feature_37_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -43040,7 +43040,7 @@ const orfusJson = {
     },
     Feature_31: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -43373,7 +43373,7 @@ const orfusJson = {
     },
     Feature_30: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -43706,7 +43706,7 @@ const orfusJson = {
     },
     Feature_29: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -44454,7 +44454,7 @@ const orfusJson = {
     },
     Feature_26: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -44621,7 +44621,7 @@ const orfusJson = {
     },
     Feature_25_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -44751,7 +44751,7 @@ const orfusJson = {
     },
     Feature_25_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -44849,7 +44849,7 @@ const orfusJson = {
     },
     Feature_24_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -44944,7 +44944,7 @@ const orfusJson = {
     },
     Feature_23: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45067,7 +45067,7 @@ const orfusJson = {
     },
     Feature_22: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45145,7 +45145,7 @@ const orfusJson = {
     },
     Feature_21_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45223,7 +45223,7 @@ const orfusJson = {
     },
     Feature_21_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45301,7 +45301,7 @@ const orfusJson = {
     },
     Feature_20_3: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45374,7 +45374,7 @@ const orfusJson = {
     },
     Feature_20_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45447,7 +45447,7 @@ const orfusJson = {
     },
     Feature_20_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45520,7 +45520,7 @@ const orfusJson = {
     },
     Feature_19: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45652,7 +45652,7 @@ const orfusJson = {
     },
     Feature_18: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45763,7 +45763,7 @@ const orfusJson = {
     },
     Feature_17_5: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45877,7 +45877,7 @@ const orfusJson = {
     },
     Feature_17_4: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -45991,7 +45991,7 @@ const orfusJson = {
     },
     Feature_17_3: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46105,7 +46105,7 @@ const orfusJson = {
     },
     Feature_17_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46219,7 +46219,7 @@ const orfusJson = {
     },
     Feature_17_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46334,7 +46334,7 @@ const orfusJson = {
     },
     Feature_16: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46513,7 +46513,7 @@ const orfusJson = {
     },
     Feature_12_6: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46632,7 +46632,7 @@ const orfusJson = {
     },
     Feature_12_5: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46751,7 +46751,7 @@ const orfusJson = {
     },
     Feature_12_4: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46857,7 +46857,7 @@ const orfusJson = {
     },
     Feature_12_3: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -46963,7 +46963,7 @@ const orfusJson = {
     },
     Feature_12_2: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -47069,7 +47069,7 @@ const orfusJson = {
     },
     Feature_12_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
@@ -47147,7 +47147,7 @@ const orfusJson = {
     },
     Feature_11: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
