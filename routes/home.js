@@ -36666,7 +36666,7 @@ const orfusJson = {
   switch_display_KPI: {
     Feature_45_1: {
       "KPI": {
-        "DisplayKPI": "False",
+        "DisplayKPI": "True",
         "business": [
           "00",
           "00"
