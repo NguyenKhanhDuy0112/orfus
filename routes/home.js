@@ -50346,7 +50346,7 @@ const orfusJson = {
       "workstation_name": "Service Comptoir",
       "time": "10:35:56"
     },
-  }
+  },
   switch_display_wait_time: {
     Feature_50_1: {
       "KPI": {
