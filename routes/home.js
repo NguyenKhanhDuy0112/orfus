@@ -23941,74 +23941,78 @@ const orfusJson = {
 
   },
   line_close: {
-    "KPI": {
-      "DisplayKPI": "False",
-      "business": [
-        "00",
-        "00"
-      ],
-      "initiation": [
-        "--",
-        "--"
-      ],
-      "performance": [
-        [
-          "Ligne 1",
+    Feature_11: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
           "00"
         ],
-        [
-          "Ligne 2",
-          "00"
+        "initiation": [
+          "--",
+          "--"
         ],
-        [
-          "Ligne 3",
-          "00"
-        ],
-        [
-          "Ligne 4",
-          "00"
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
         ]
-      ]
+      },
+      "buttons": [],
+      "open_status": "False",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
     },
-    "buttons": [],
-    "open_status": "False",
-    "workstation_name": "MFY 1",
-    "time": "10:35:56"
   },
   line_open: {
-    "KPI": {
-      "DisplayKPI": "False",
-      "business": [
-        "00",
-        "00"
-      ],
-      "initiation": [
-        "--",
-        "--"
-      ],
-      "performance": [
-        [
-          "Ligne 1",
+    Feature_11: {
+      "KPI": {
+        "DisplayKPI": "False",
+        "business": [
+          "00",
           "00"
         ],
-        [
-          "Ligne 2",
-          "00"
+        "initiation": [
+          "--",
+          "--"
         ],
-        [
-          "Ligne 3",
-          "00"
-        ],
-        [
-          "Ligne 4",
-          "00"
+        "performance": [
+          [
+            "Ligne 1",
+            "00"
+          ],
+          [
+            "Ligne 2",
+            "00"
+          ],
+          [
+            "Ligne 3",
+            "00"
+          ],
+          [
+            "Ligne 4",
+            "00"
+          ]
         ]
-      ]
-    },
-    "buttons": [],
-    "open_status": "True",
-    "workstation_name": "MFY 1",
-    "time": "10:35:56"
+      },
+      "buttons": [],
+      "open_status": "True",
+      "workstation_name": "MFY 1",
+      "time": "10:35:56"
+    }
   },
   uid_park: {
     Feature_33: {
