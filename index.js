@@ -12,12 +12,12 @@ app.use(express.json());
 app.use(bodyParser.json({ limit: '30mb' }));
 app.use(bodyParser.urlencoded({ extended: false, limit: '30mb' }));
 
-// const corsOptions = {
-//     origin: true,
-//     credentials: true,
-// };
+const corsOptions = {
+    origin: true,
+    credentials: true,
+};
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 dotenv.config();
 // Middlewares
 
