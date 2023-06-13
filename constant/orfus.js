@@ -6362,7 +6362,7 @@ const orfusJson = {
             },
          ],
          open_status: "True",
-         workstation_name: "MFY 1",
+         workstation_name: "MFY 1 Test",
          time: "10:35:56",
       },
       Feature_12_1: {
