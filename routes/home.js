@@ -30204,10 +30204,10 @@ const orfusJson = {
                               },
                               {
                                  grill: [
-                                    ["+ Bacon"],
-                                    ["+ Tomates"],
-                                    ["+ Sauce"],
-                                    ["- Oignon"],
+                                    { quantity: "+", name: "Bacon" },
+                                    { quantity: "+", name: "Tomates" },
+                                    { quantity: "+", name: "Sauce" },
+                                    { quantity: "-", name: "Oignon" },
                                  ],
                                  quantity: "2",
                                  name: "burger 5",
@@ -30233,7 +30233,10 @@ const orfusJson = {
                                  name: "burger 9",
                               },
                               {
-                                 grill: [["+ Salade"], ["- Sauce"]],
+                                 grill: [
+                                    { quantity: "+", name: "Salade" },
+                                    { quantity: "-", name: "Sauce" },
+                                 ],
                                  quantity: "2",
                                  name: "burger 10",
                               },
@@ -30313,11 +30316,7 @@ const orfusJson = {
                   quantity: "1/1",
                   type: "4",
                   metric: "SSS",
-                  banner: [
-                     {
-                        type: "4",
-                     },
-                  ],
+                  banner: [{ type: "4" }],
                },
                products: [
                   {
@@ -30348,10 +30347,10 @@ const orfusJson = {
                               },
                               {
                                  grill: [
-                                    ["Sans Ketchup"],
-                                    ["Sans Fromage"],
-                                    ["Sans Salade"],
-                                    ["Sans Oignons"],
+                                    { quantity: "Sans", name: "Ketchup" },
+                                    { quantity: "Sans", name: "Fromage" },
+                                    { quantity: "Sans", name: "Salade" },
+                                    { quantity: "Sans", name: "Oignons" },
                                  ],
                                  quantity: "1",
                                  name: "McFirst Boeuf",
@@ -30377,7 +30376,10 @@ const orfusJson = {
                                  name: "Big Tasty Chicken",
                               },
                               {
-                                 grill: [["Sans Bacon"], ["Sans Fromage"]],
+                                 grill: [
+                                    { quantity: "Sans", name: "Bacon" },
+                                    { quantity: "Sans", name: "Fromage" },
+                                 ],
                                  quantity: "1",
                                  name: "CBO",
                               },
@@ -30442,14 +30444,16 @@ const orfusJson = {
                                  name: "Moyen Eau Citron",
                               },
                               {
-                                 grill: [["Sans Chantilly"]],
+                                 grill: [
+                                    { quantity: "Sans", name: "Chantilly" },
+                                 ],
                                  quantity: "1",
                                  name: "Parfait VanChoco",
                               },
                            ],
                         },
                      ],
-                     slot_status: "Selected",
+                     slot_status: "Not Selected",
                   },
                ],
             },
@@ -30494,10 +30498,10 @@ const orfusJson = {
                               },
                               {
                                  grill: [
-                                    ["+ Bacon"],
-                                    ["+ Tomates"],
-                                    ["+ Sauce"],
-                                    ["- Oignon"],
+                                    { quantity: "+", name: "Bacon" },
+                                    { quantity: "+", name: "Tomates" },
+                                    { quantity: "+", name: "Sauce" },
+                                    { quantity: "-", name: "Oignon" },
                                  ],
                                  quantity: "2",
                                  name: "burger 5",
@@ -30523,7 +30527,10 @@ const orfusJson = {
                                  name: "burger 9",
                               },
                               {
-                                 grill: [["+ Salade"], ["- Sauce"]],
+                                 grill: [
+                                    { quantity: "+", name: "Salade" },
+                                    { quantity: "-", name: "Sauce" },
+                                 ],
                                  quantity: "2",
                                  name: "burger 10",
                               },
@@ -30551,6 +30558,7 @@ const orfusJson = {
             reprint_grill: "True",
          },
          open_status: "True",
+         workstation_name: "MFY 1",
          time: "10:35:56",
       },
       Feature_37_2: {
