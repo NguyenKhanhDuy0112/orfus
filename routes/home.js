@@ -41224,7 +41224,7 @@ const orfusJson = {
       },
       Feature_32: {
          KPI: {
-            DisplayKPI: "True",
+            DisplayKPI: "False",
             business: ["00", "00"],
             initiation: ["--", "--"],
             performance: [
