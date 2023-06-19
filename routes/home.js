@@ -59625,6 +59625,34 @@ router.post("/recall_decrease", async (req, res, next) => {
    }
 });
 
+router.post("/reprint_increase", async (req, res, next) => {
+   try {
+      const q = req.query.mock;
+      const findIndex = req.url.split("").findIndex((x) => x === "?");
+      const url = req.url.split("").slice(1, findIndex).join("");
+      if (Object.keys(orfusJson).includes(url)) {
+         return res.status(200).json(orfusJson[url][q]);
+      }
+      return res.status(400).json({});
+   } catch (error) {
+      return res.status(500).json({ message: "fail" });
+   }
+});
+
+router.post("/reprint_decrease", async (req, res, next) => {
+   try {
+      const q = req.query.mock;
+      const findIndex = req.url.split("").findIndex((x) => x === "?");
+      const url = req.url.split("").slice(1, findIndex).join("");
+      if (Object.keys(orfusJson).includes(url)) {
+         return res.status(200).json(orfusJson[url][q]);
+      }
+      return res.status(400).json({});
+   } catch (error) {
+      return res.status(500).json({ message: "fail" });
+   }
+});
+
 router.post("/switch_display_serve_later", async (req, res, next) => {
    try {
       const q = req.query.mock;
