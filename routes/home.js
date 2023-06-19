@@ -3127,7 +3127,7 @@ const orfusJson = {
                            ],
                         },
                      ],
-                     slot_status: "Selected",
+                     slot_status: "Not Selected",
                   },
                ],
             },
@@ -3166,7 +3166,7 @@ const orfusJson = {
                            ],
                         },
                      ],
-                     slot_status: "Not Selected",
+                     slot_status: "Selected",
                   },
                ],
             },
@@ -34291,6 +34291,310 @@ const orfusJson = {
             },
          ],
          open_status: "True",
+         time: "10:35:56",
+      },
+      Feature_26_3: {
+         KPI: {
+            DisplayKPI: "False",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
+         },
+         buttons: [
+            {
+               order: {
+                  DISPLAY_FULL_ORDER: "True",
+                  UID: "25000002_20230131_162015_245",
+                  already_bumped: "+0",
+                  name: "ESP 45",
+                  quantity: "1/1",
+                  type: "1",
+                  metric: "SSS",
+                  banner: [{ type: "1" }],
+               },
+               products: [
+                  {
+                     order_uid: "25000002_20230131_162015_245",
+                     content: [
+                        {
+                           type: "list",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 1",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                           ],
+                        },
+                        {
+                           type: "image",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "Petite frite",
+                                 image: "1001.png",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "13",
+                                 name: "Moyenne frite",
+                                 image: "1002.png",
+                                 update: "Increase",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "993",
+                                 name: "Grande frite",
+                                 image: "1003.png",
+                                 update: "Decrease",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "Grande Potatoes",
+                                 image: "1003.png",
+                              },
+                           ],
+                        },
+                        {
+                           type: "image",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "0",
+                                 name: "Sauce Big Tasty",
+                                 image: "1013.png",
+                                 update: "Decrease",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "13",
+                                 name: "Sauce chinoise",
+                                 image: "1014.png",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "993",
+                                 name: "Creamy deluxe",
+                                 image: "1015.png",
+                              },
+                           ],
+                        },
+                     ],
+                     slot_status: "Selected",
+                  },
+               ],
+            },
+            {
+               order: {
+                  DISPLAY_FULL_ORDER: "True",
+                  UID: "25000002_20230131_162015_246",
+                  already_bumped: "+0",
+                  name: "ESP 46",
+                  quantity: "1/1",
+                  type: "1",
+                  metric: "SSS",
+               },
+               products: [
+                  {
+                     order_uid: "25000002_20230131_162015_246",
+                     content: [
+                        {
+                           type: "list",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 1",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                           ],
+                        },
+                     ],
+                     slot_status: "Not Selected",
+                  },
+               ],
+            },
+         ],
+         open_status: "True",
+         workstation_name: "MFY 1",
+         time: "10:35:56",
+      },
+      Feature_26_2: {
+         KPI: {
+            DisplayKPI: "False",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
+         },
+         buttons: [
+            {
+               order: {
+                  DISPLAY_FULL_ORDER: "True",
+                  UID: "25000002_20230131_162015_245",
+                  already_bumped: "+0",
+                  name: "ESP 45",
+                  quantity: "1/1",
+                  type: "1",
+                  metric: "SSS",
+                  banner: [{ type: "1" }],
+               },
+               products: [
+                  {
+                     order_uid: "25000002_20230131_162015_245",
+                     content: [
+                        {
+                           type: "list",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 1",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                           ],
+                        },
+                        {
+                           type: "image",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "Petite frite",
+                                 image: "1001.png",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "13",
+                                 name: "Moyenne frite",
+                                 image: "1002.png",
+                                 update: "Increase",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "993",
+                                 name: "Grande frite",
+                                 image: "1003.png",
+                                 update: "Decrease",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "Grande Potatoes",
+                                 image: "1003.png",
+                              },
+                           ],
+                        },
+                        {
+                           type: "image",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "0",
+                                 name: "Sauce Big Tasty",
+                                 image: "1013.png",
+                                 update: "Decrease",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "13",
+                                 name: "Sauce chinoise",
+                                 image: "1014.png",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "993",
+                                 name: "Creamy deluxe",
+                                 image: "1015.png",
+                              },
+                           ],
+                        },
+                     ],
+                     slot_status: "Not Selected",
+                  },
+               ],
+            },
+            {
+               order: {
+                  DISPLAY_FULL_ORDER: "True",
+                  UID: "25000002_20230131_162015_246",
+                  already_bumped: "+0",
+                  name: "ESP 46",
+                  quantity: "1/1",
+                  type: "1",
+                  metric: "SSS",
+               },
+               products: [
+                  {
+                     order_uid: "25000002_20230131_162015_246",
+                     content: [
+                        {
+                           type: "list",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 1",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                           ],
+                        },
+                     ],
+                     slot_status: "Selected",
+                  },
+               ],
+            },
+         ],
+         open_status: "True",
+         workstation_name: "MFY 1",
          time: "10:35:56",
       },
       Feature_26: {
