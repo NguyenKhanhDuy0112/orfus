@@ -27685,6 +27685,40 @@ const orfusJson = {
          open_status: "True",
          time: "10:35:56",
       },
+      Feature_45_1: {
+         KPI: {
+            DisplayKPI: "True",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
+         },
+         buttons: [],
+         open_status: "True",
+         workstation_name: "MFY 1",
+         time: "10:35:56",
+      },
+      Feature_45_2: {
+         KPI: {
+            DisplayKPI: "False",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
+         },
+         buttons: [],
+         open_status: "True",
+         workstation_name: "MFY 1",
+         time: "10:35:56",
+      },
       Feature_42: {
          KPI: {
             DisplayKPI: "False",
@@ -38486,7 +38520,7 @@ const orfusJson = {
    switch_display_KPI: {
       Feature_45_1: {
          KPI: {
-            DisplayKPI: "True",
+            DisplayKPI: "False",
             business: ["00", "00"],
             initiation: ["--", "--"],
             performance: [
