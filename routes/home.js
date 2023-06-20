@@ -23475,23 +23475,28 @@ const orfusJson = {
                            products: [
                               {
                                  grill: [],
-                                 name: "2 burger 1",
+                                 quantity: "2",
+                                 name: "burger 1",
                               },
                               {
                                  grill: [],
-                                 name: "2 burger 2",
+                                 quantity: "2",
+                                 name: "burger 2",
                               },
                               {
                                  grill: [],
-                                 name: "2 burger 3",
+                                 quantity: "2",
+                                 name: "burger 3",
                               },
                               {
                                  grill: [],
-                                 name: "2 burger 4",
+                                 quantity: "2",
+                                 name: "burger 4",
                               },
                               {
                                  grill: [],
-                                 name: "2 burger 5",
+                                 quantity: "2",
+                                 name: "burger 5",
                               },
                            ],
                         },
@@ -23502,6 +23507,7 @@ const orfusJson = {
             },
          ],
          open_status: "True",
+         workstation_name: "MFY 1",
          time: "10:35:56",
       },
       Feature_11: {
