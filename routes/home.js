@@ -34160,6 +34160,7 @@ const orfusJson = {
                ],
             },
          ],
+         can_park: "True",
          open_status: "True",
          workstation_name: "Service Drive",
          time: "10:35:56",
