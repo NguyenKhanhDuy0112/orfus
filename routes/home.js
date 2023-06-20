@@ -24927,6 +24927,370 @@ const orfusJson = {
       },
    },
    line_content_to_display: {
+      Feature_57_2: {
+         buttons_wait_time: [
+            {
+               order_name: "CB 00452",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "5",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00453",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00454",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00455",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00456",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "1",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00457",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00458",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00459",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00460",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "5",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00461",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "6",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00462",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "7",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00463",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "8",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00464",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "9",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00465",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "10",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00466",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "11",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00467",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "12",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+         ],
+         buttons_ready: [
+            {
+               order_name: "CB 00456",
+            },
+            {
+               order_name: "U-767CV",
+            },
+            {
+               order_name: "CB 00458",
+            },
+            {
+               order_name: "U-675367",
+            },
+            {
+               order_name: "@@54678",
+            },
+            {
+               order_name: "CB 00457",
+            },
+            {
+               order_name: "U-767CV",
+            },
+            {
+               order_name: "CB 00458",
+            },
+            {
+               order_name: "U-675367",
+            },
+            {
+               order_name: "@@54678",
+            },
+            {
+               order_name: "CB 00457",
+            },
+            {
+               order_name: "@@54678",
+            },
+            {
+               order_name: "CB 00457",
+            },
+         ],
+      },
+      Feature_57_1: {
+         buttons_wait_time: [
+            {
+               order_name: "CB 00452",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "5",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00453",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00454",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00455",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00456",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "1",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00457",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00458",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00459",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+         ],
+         buttons_ready: [
+            {
+               order_name: "CB 00456",
+            },
+            {
+               order_name: "U-767CV",
+            },
+            {
+               order_name: "CB 00458",
+            },
+         ],
+      },
       Feature_54_2: {
          KPI: {
             DisplayKPI: "False",
