@@ -33830,10 +33830,6 @@ const orfusJson = {
                ["Ligne 2", "00"],
                ["Ligne 3", "00"],
                ["Ligne 4", "00"],
-               ["Ligne 5", "00"],
-               ["Ligne 6", "00"],
-               ["Ligne 7", "00"],
-               ["Ligne 8", "00"],
             ],
          },
          buttons: [
@@ -33845,6 +33841,7 @@ const orfusJson = {
                   name: "ESP 45",
                   quantity: "1/1",
                   type: "4",
+                  banner: [{ type: "4" }],
                   metric: "SSS",
                },
                products: [
@@ -33882,7 +33879,7 @@ const orfusJson = {
                            ],
                         },
                      ],
-                     slot_status: "Selected",
+                     slot_status: "Selected Parked",
                   },
                ],
             },
@@ -34070,8 +34067,6 @@ const orfusJson = {
                   },
                ],
             },
-         ],
-         buttons_parked: [
             {
                order: {
                   DISPLAY_FULL_ORDER: "True",
@@ -34080,210 +34075,11 @@ const orfusJson = {
                   name: "ESP 48",
                   quantity: "1/1",
                   type: "4",
-                  banner: [
-                     {
-                        type: "4",
-                     },
-                  ],
                   metric: "SSS",
                },
                products: [
                   {
                      order_uid: "25000002_20230131_162015_248",
-                     content: [
-                        {
-                           type: "list",
-                           products: [
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 1",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 2",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 3",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 4",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "+", name: "Bacon" },
-                                    { quantity: "+", name: "Tomates" },
-                                    { quantity: "+", name: "Sauce" },
-                                    { quantity: "-", name: "Oignon" },
-                                 ],
-                                 quantity: "2",
-                                 name: "burger 5",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 6",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 7",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 8",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 9",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "+", name: "Salade" },
-                                    { quantity: "-", name: "Sauce" },
-                                 ],
-                                 quantity: "2",
-                                 name: "burger 10",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 11",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 12",
-                              },
-                           ],
-                        },
-                     ],
-                     slot_status: "Not Selected",
-                  },
-               ],
-            },
-            {
-               order: {
-                  DISPLAY_FULL_ORDER: "True",
-                  UID: "25000002_20230131_162015_249",
-                  already_bumped: "+0",
-                  name: "ESP 49",
-                  quantity: "1/1",
-                  type: "4",
-                  banner: [
-                     {
-                        type: "4",
-                     },
-                  ],
-                  metric: "SSS",
-               },
-               products: [
-                  {
-                     order_uid: "25000002_20230131_162015_248",
-                     content: [
-                        {
-                           type: "list",
-                           products: [
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 1",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 2",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 3",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 4",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "+", name: "Bacon" },
-                                    { quantity: "+", name: "Tomates" },
-                                    { quantity: "+", name: "Sauce" },
-                                    { quantity: "-", name: "Oignon" },
-                                 ],
-                                 quantity: "2",
-                                 name: "burger 5",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 6",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 7",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 8",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 9",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "+", name: "Salade" },
-                                    { quantity: "-", name: "Sauce" },
-                                 ],
-                                 quantity: "2",
-                                 name: "burger 10",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 11",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "2",
-                                 name: "burger 12",
-                              },
-                           ],
-                        },
-                     ],
-                     slot_status: "Not Selected",
-                  },
-               ],
-            },
-            {
-               order: {
-                  DISPLAY_FULL_ORDER: "True",
-                  UID: "25000002_20230131_162015_250",
-                  already_bumped: "+0",
-                  name: "ESP 50",
-                  quantity: "1/1",
-                  type: "4",
-                  banner: [
-                     {
-                        type: "4",
-                     },
-                  ],
-                  metric: "SSS",
-               },
-               products: [
-                  {
-                     order_uid: "25000002_20230131_162015_250",
                      content: [
                         {
                            type: "list",
@@ -34364,9 +34160,8 @@ const orfusJson = {
                ],
             },
          ],
-         can_park: "True",
          open_status: "True",
-         workstation_name: "MFY 1",
+         workstation_name: "Service Drive",
          time: "10:35:56",
       },
       Feature_32_1: {
