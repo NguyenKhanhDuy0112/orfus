@@ -1585,6 +1585,23 @@ const orfusJson = {
          open_status: "True",
          time: "10:35:56",
       },
+      Feature_12_1: {
+         KPI: {
+            DisplayKPI: "False",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
+         },
+         buttons: [],
+         open_status: "True",
+         workstation_name: "MFY 1",
+         time: "10:35:56",
+      },
    },
    reprint_bump: {
       Feature_41_3: {
@@ -40530,88 +40547,72 @@ const orfusJson = {
          time: "10:35:56",
       },
       Feature_12_1: {
-         "KPI": {
-             "DisplayKPI": "False",
-             "business": [
-                 "00",
-                 "00"
-             ],
-             "initiation": [
-                 "--",
-                 "--"
-             ],
-             "performance": [
-                 [
-                     "Ligne 1",
-                     "00"
-                 ],
-                 [
-                     "Ligne 2",
-                     "00"
-                 ],
-                 [
-                     "Ligne 3",
-                     "00"
-                 ],
-                 [
-                     "Ligne 4",
-                     "00"
-                 ]
-             ]
+         KPI: {
+            DisplayKPI: "False",
+            business: ["00", "00"],
+            initiation: ["--", "--"],
+            performance: [
+               ["Ligne 1", "00"],
+               ["Ligne 2", "00"],
+               ["Ligne 3", "00"],
+               ["Ligne 4", "00"],
+            ],
          },
-         "buttons": [
-             {
-                 "order": {
-                     "DISPLAY_FULL_ORDER": "True",
-                     "UID": "25000002_20230131_162015_245",
-                     "already_bumped": "+0",
-                     "name": "ESP 45",
-                     "quantity": "1/1",
-                     "type": "1",
-                     "metric": "SSS"
-                 },
-                 "products": [
-                     {
-                         "order_uid": "25000002_20230131_162015_245",
-                         "content": [
-                             {"type": "list",
-                             "products": [
-                                 {
-                                     "grill": [],
-                                     "quantity": "2",
-                                     "name": "burger 1"
-                                 },
-                                 {
-                                     "grill": [],
-                                     "quantity": "2",
-                                     "name": "burger 2"
-                                 },
-                                 {
-                                     "grill": [],
-                                     "quantity": "2",
-                                     "name": "burger 3"
-                                 },
-                                 {
-                                     "grill": [],
-                                     "quantity": "2",
-                                     "name": "burger 4"
-                                 },
-                                 {
-                                     "grill": [],
-                                     "quantity": "2",
-                                     "name": "burger 5"
-                                 }]
-                             }
-                         ],
-                         "slot_status": "Selected"
-                     }
-                 ]
-             }
+         buttons: [
+            {
+               order: {
+                  DISPLAY_FULL_ORDER: "True",
+                  UID: "25000002_20230131_162015_245",
+                  already_bumped: "+0",
+                  name: "ESP 45",
+                  quantity: "1/1",
+                  type: "1",
+                  metric: "SSS",
+               },
+               products: [
+                  {
+                     order_uid: "25000002_20230131_162015_245",
+                     content: [
+                        {
+                           type: "list",
+                           products: [
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 1",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 4",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 5",
+                              },
+                           ],
+                        },
+                     ],
+                     slot_status: "Selected",
+                  },
+               ],
+            },
          ],
-         "open_status": "True",
-         "workstation_name": "MFY 1",
-         "time": "10:35:56"
-     },
+         open_status: "True",
+         workstation_name: "MFY 1",
+         time: "10:35:56",
+      },
       Feature_11: {
          KPI: {
             DisplayKPI: "False",
