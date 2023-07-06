@@ -34526,150 +34526,92 @@ const orfusJson = {
             {
                order: {
                   DISPLAY_FULL_ORDER: "True",
-                  UID: "25000002_20230131_162015_245",
+                  UID: "25000002_20230131_162015_248",
                   already_bumped: "+0",
-                  name: "ESP 45",
+                  name: "ESP 48",
                   quantity: "1/1",
                   type: "4",
                   metric: "SSS",
-                  banner: [{ type: "4" }],
                },
                products: [
                   {
-                     order_uid: "25000002_20230131_162015_245",
+                     order_uid: "25000002_20230131_162015_248",
                      content: [
                         {
                            type: "list",
                            products: [
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "Hamb",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Cheese",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Double Cheese Bacon",
+                                 quantity: "2",
+                                 name: "burger 1",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Triple Cheese",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 4",
                               },
                               {
                                  grill: [
-                                    { quantity: "Sans", name: "Ketchup" },
-                                    { quantity: "Sans", name: "Fromage" },
-                                    { quantity: "Sans", name: "Salade" },
-                                    { quantity: "Sans", name: "Oignons" },
+                                    { quantity: "+", name: "Bacon" },
+                                    { quantity: "+", name: "Tomates" },
+                                    { quantity: "+", name: "Sauce" },
+                                    { quantity: "-", name: "Oignon" },
                                  ],
-                                 quantity: "1",
-                                 name: "McFirst Boeuf",
+                                 quantity: "2",
+                                 name: "burger 5",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "McFirst Poulet",
+                                 name: "burger 6",
                               },
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "McFirst Poisson",
+                                 quantity: "2",
+                                 name: "burger 7",
                               },
                               {
                                  grill: [],
-                                 quantity: "3",
-                                 name: "McChicken",
+                                 quantity: "2",
+                                 name: "burger 8",
                               },
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "Big Tasty Chicken",
+                                 quantity: "2",
+                                 name: "burger 9",
                               },
                               {
                                  grill: [
-                                    { quantity: "Sans", name: "Bacon" },
-                                    { quantity: "Sans", name: "Fromage" },
+                                    { quantity: "+", name: "Salade" },
+                                    { quantity: "-", name: "Sauce" },
                                  ],
-                                 quantity: "1",
-                                 name: "CBO",
+                                 quantity: "2",
+                                 name: "burger 10",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Cheddar Smoky 1v",
+                                 name: "burger 11",
                               },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Cheddar Smoky 2v",
-                              },
-                           ],
-                        },
-                        {
-                           type: "list",
-                           products: [
-                              {
-                                 grill: [],
-                                 quantity: "0",
-                                 name: "Petite frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Moyenne frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "5",
-                                 name: "Grande frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Grande Potatoes",
-                              },
-                           ],
-                        },
-                        {
-                           type: "list",
-                           products: [
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Grand Coca",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Moyen Coca Zero",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Moyen Ice Tea",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Moyen Eau Citron",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "Sans", name: "Chantilly" },
-                                 ],
-                                 quantity: "1",
-                                 name: "Parfait VanChoco",
+                                 name: "burger 12",
                               },
                            ],
                         },
                      ],
-                     slot_status: "Selected",
+                     slot_status: "Not Selected",
                   },
                ],
             },
@@ -62833,150 +62775,92 @@ const orfusJson = {
             {
                order: {
                   DISPLAY_FULL_ORDER: "True",
-                  UID: "25000002_20230131_162015_245",
+                  UID: "25000002_20230131_162015_248",
                   already_bumped: "+0",
-                  name: "ESP 45",
+                  name: "ESP 48",
                   quantity: "1/1",
                   type: "4",
                   metric: "SSS",
-                  banner: [{ type: "4" }],
                },
                products: [
                   {
-                     order_uid: "25000002_20230131_162015_245",
+                     order_uid: "25000002_20230131_162015_248",
                      content: [
                         {
                            type: "list",
                            products: [
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "Hamb",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Cheese",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Double Cheese Bacon",
+                                 quantity: "2",
+                                 name: "burger 1",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Triple Cheese",
+                                 name: "burger 2",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 3",
+                              },
+                              {
+                                 grill: [],
+                                 quantity: "2",
+                                 name: "burger 4",
                               },
                               {
                                  grill: [
-                                    { quantity: "Sans", name: "Ketchup" },
-                                    { quantity: "Sans", name: "Fromage" },
-                                    { quantity: "Sans", name: "Salade" },
-                                    { quantity: "Sans", name: "Oignons" },
+                                    { quantity: "+", name: "Bacon" },
+                                    { quantity: "+", name: "Tomates" },
+                                    { quantity: "+", name: "Sauce" },
+                                    { quantity: "-", name: "Oignon" },
                                  ],
-                                 quantity: "1",
-                                 name: "McFirst Boeuf",
+                                 quantity: "2",
+                                 name: "burger 5",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "McFirst Poulet",
+                                 name: "burger 6",
                               },
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "McFirst Poisson",
+                                 quantity: "2",
+                                 name: "burger 7",
                               },
                               {
                                  grill: [],
-                                 quantity: "3",
-                                 name: "McChicken",
+                                 quantity: "2",
+                                 name: "burger 8",
                               },
                               {
                                  grill: [],
-                                 quantity: "1",
-                                 name: "Big Tasty Chicken",
+                                 quantity: "2",
+                                 name: "burger 9",
                               },
                               {
                                  grill: [
-                                    { quantity: "Sans", name: "Bacon" },
-                                    { quantity: "Sans", name: "Fromage" },
+                                    { quantity: "+", name: "Salade" },
+                                    { quantity: "-", name: "Sauce" },
                                  ],
-                                 quantity: "1",
-                                 name: "CBO",
+                                 quantity: "2",
+                                 name: "burger 10",
                               },
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Cheddar Smoky 1v",
+                                 name: "burger 11",
                               },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Cheddar Smoky 2v",
-                              },
-                           ],
-                        },
-                        {
-                           type: "list",
-                           products: [
-                              {
-                                 grill: [],
-                                 quantity: "0",
-                                 name: "Petite frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Moyenne frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "5",
-                                 name: "Grande frite",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Grande Potatoes",
-                              },
-                           ],
-                        },
-                        {
-                           type: "list",
-                           products: [
                               {
                                  grill: [],
                                  quantity: "2",
-                                 name: "Grand Coca",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Moyen Coca Zero",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "3",
-                                 name: "Moyen Ice Tea",
-                              },
-                              {
-                                 grill: [],
-                                 quantity: "1",
-                                 name: "Moyen Eau Citron",
-                              },
-                              {
-                                 grill: [
-                                    { quantity: "Sans", name: "Chantilly" },
-                                 ],
-                                 quantity: "1",
-                                 name: "Parfait VanChoco",
+                                 name: "burger 12",
                               },
                            ],
                         },
                      ],
-                     slot_status: "Selected",
+                     slot_status: "Not Selected",
                   },
                ],
             },
