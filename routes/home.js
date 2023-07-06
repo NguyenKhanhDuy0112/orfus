@@ -35560,6 +35560,7 @@ const orfusJson = {
             reprint_all: "True",
             reprint_grouped: "True",
             reprint_grill: "True",
+            selected: "reprint_grouped",
          },
          open_status: "True",
          workstation_name: "MFY 1",
