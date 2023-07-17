@@ -68062,6 +68062,122 @@ const orfusJson = {
             },
          ],
       },
+      Feature_59: {
+         buttons_wait_time: [
+            {
+               order_name: "CB 00452",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "5",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00453",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00454",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00455",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00456",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "1",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00457",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "2",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00458",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "3",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+            {
+               order_name: "CB 00459",
+               banner: [
+                  {
+                     type: "2",
+                     parameters: {
+                        status: "1",
+                        len_queue: "4",
+                     },
+                  },
+               ],
+               metric: "XXX",
+            },
+         ],
+         buttons_ready: [
+            {
+               order_name: "CB 00456",
+            },
+            {
+               order_name: "U-767CV",
+            },
+            {
+               order_name: "CB 00458",
+            },
+         ],
+         display_delivery_status: "True",
+      },
    },
 };
 
